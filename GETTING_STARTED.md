@@ -45,11 +45,11 @@ charlottealbert.github.io/
 
 4. Choose branch **main** (or **master**), folder **/ (root)**, then **Save**.
 
-5. After a minute or two, your site will be live at:
+5. After a minute or two, your site will be live. **Use your GitHub username in the URL, not the repo name.**
 
-   **https://charlottealbert.github.io**
+   Your GitHub account is **charralbert**, and your repo is named `charlottealbert.github.io`, so your site is here:
 
-(GitHub may email you when the first deploy finishes.)
+   **https://charralbert.github.io/**
 
 ## Tips
 
