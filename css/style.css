@@ -28,7 +28,7 @@ body {
 .site-header h1 {
   font-family: "Charlottefont";
   margin: 0 0 0.5rem;
-  font-size: 2.25rem;
+  font-size: 4rem;
   font-weight: normal;
   letter-spacing: 0.02em;
 }
@@ -111,7 +111,7 @@ main {
 .project-page h1 {
   font-family: "Charlottefont";
   margin: 0 0 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal;
 }
 
