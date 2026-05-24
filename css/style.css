@@ -1,4 +1,10 @@
 /* Shared styles for the whole site */
+@font-face {
+  font-family: "Charlottefont";   /* any name you choose */
+  src: url("../fonts/Charlottefont-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 *,
 *::before,
@@ -20,6 +26,7 @@ body {
 }
 
 .site-header h1 {
+  font-family: "Charlottefont";
   margin: 0 0 0.5rem;
   font-size: 2.25rem;
   font-weight: normal;
@@ -102,6 +109,7 @@ main {
 }
 
 .project-page h1 {
+  font-family: "Charlottefont";
   margin: 0 0 1rem;
   font-size: 2rem;
   font-weight: normal;
