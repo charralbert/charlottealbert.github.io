@@ -37,22 +37,53 @@
     <h3>My Roles</h3>
     <p>Each group member was assigned a technical and logistical role to ensure the project was completed efficiently.</p>
     <ul>
-      <li>Control Lead: I was responsible for the Control System, which meant designing a PID controller to execute the
-        steering commands for the vehicle. I also served as the primary member for system integration, ensuring that all
-        systems could effectively communicate. 
+      <li>Control and Integration Lead: I was responsible for the Control System and System integration. This meant I was to research 
+        technical solutions for the systems and be the main organizer of tasks related to the systems.
       </li>
       <li>Meeting Lead: I was responsible for planning the weekly meetings and setting the project timeline. I planned weekly 
         sprints, working with all the different schedules to ensure we were on track to complete the project. 
       </li>
     </ul>
 
+    <h3>My Contributions</h3>
+    <ul>
+      <li> I collected and annotated images of traffic signs and ducks to train the object detection model. We used a 70, 20, 10 split
+        and was trained using Google Collab. The model had 85% accuracy on the test set. 
+      </li>
+      <li> I created a script to send TCP packets with camera information from a separate terminal to the main terminal - this was made 
+        because libraries integrating the Coral USB accelerator are older and incompatible alongside AiyMakerkit libraries.  
+      </li>
+      <li> My teammate, Beth, created a directed graph of the map of Quackston. She implemented Dijkstra's algorithm to create a path from 
+        pickup to drop-off. From this, I created a Global Planner to handle node-to-node arrivals with information from the Path Planner
+        and GPS coordinates.
+      </li>
+      <li> I implemented a Behavior Planner using a finite state machine - this takes filtered sensor inputs from Estimation and information From
+        Global Planner to determine a local state like stop, slow, turn right, etc.
+      </li>
+      <li> I created the PID controller for the vehicle's steering.
+      </li>
+    </ul>
+
+    <img class="project-hero" src="../images/thundercabb_besties.jpg" alt="Thundercabb Besties">
+
+    <h3>My Teammates</h3>
+    <p>This project wouldn't have been possible without my wonderful teammates, here's their LinkedIn accounts ordered from left to right</p>
+    <ul>
+      <li> <a href="https://www.linkedin.com/in/alisa-kiss/">Alisa Kiss</a> - a third year Electrical Engineering student.
+      </li>
+      <li> <a href="https://www.linkedin.com/in/brenna-odonnell/">Brenna O'Donnell</a> - a third year Electrical Engineering student
+      </li>
+      <li> <a href="https://www.linkedin.com/in/bethany-findlay-3245b22b6/">Bethany Findlay</a> - a third year Computer Engineering student
+      </li>
+    </ul>
+
     <p>
-      <h3>My Contributions</h3>
-      With my former experience in autonomous vehicle development through my design team, 
+      <h3>A Note on the Design</h3>
+      The cardboard design of our taxi is a homage to Queen's University Engineering Orientation week. As tradition, engineers construct 
+      what is called a "ThunderMug" which is a box spring with a toilet nailed to it and cardboard...
     </p>
 
     <p>
-      When you are ready, rename this file and update the link on the home page
       (<code>index.html</code>) so the photo points here.
     </p>
   </article>
